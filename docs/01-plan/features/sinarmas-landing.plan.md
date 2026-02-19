@@ -1,12 +1,12 @@
-# Sinar Mas x Afformation 파트너십 랜딩페이지 - 기획서 v2.0
+# Sinar Mas x Afformation 파트너십 랜딩페이지 - 기획서 v3.0
 
 > **요약**: 시나르마스/Corfortune이 보는 순간 어포메이션과 협업 및 투자를 결심하게 만드는, 모든 것이 Loop로 연결된 압도적인 파트너십 제안 랜딩페이지
 >
 > **프로젝트**: Sinar Mas Partnership Landing Page
-> **버전**: 2.0.0
+> **버전**: 3.0.0
 > **작성자**: Afformation Dev Team
 > **작성일**: 2026-02-19
-> **상태**: Draft → 컨펌 대기
+> **상태**: 구현 완료 → 디자인 고도화 완료
 
 ---
 
@@ -56,15 +56,15 @@
 
 ### 2.1 포함 범위 (In Scope)
 
-- [ ] **한국어 기본** 랜딩페이지 + **영어 언어팩**(i18n) 전환 기능
-- [ ] 어포메이션의 "마케팅 Loop" 풀 인터랙티브 시각화 (SVG + 모션)
-- [ ] 3단 논리 구조 섹션 (유통 → 마케팅 → 비전)
-- [ ] ScoutManager AI 솔루션 딥다이브 섹션
-- [ ] 시나르마스 인프라 + 어포메이션 소프트웨어 시너지 시각화
-- [ ] JV(합작법인) 로드맵 인터랙티브 타임라인
-- [ ] 반응형 웹 (데스크탑/태블릿/모바일)
-- [ ] **압도적인 모션/인터랙션 디자인** (Loop 연결 시스템)
-- [ ] 한/영 언어 토글 버튼
+- [x] **한국어 기본** 랜딩페이지 + **영어 언어팩**(i18n) 전환 기능
+- [x] 어포메이션의 "마케팅 Loop" 풀 인터랙티브 시각화 (SVG + 모션)
+- [x] 3단 논리 구조 섹션 (유통 → 마케팅 → 비전)
+- [x] ScoutManager AI 솔루션 딥다이브 섹션
+- [x] 시나르마스 인프라 + 어포메이션 소프트웨어 시너지 시각화
+- [x] JV(합작법인) 로드맵 인터랙티브 타임라인
+- [x] 반응형 웹 (데스크탑/태블릿/모바일)
+- [x] **압도적인 모션/인터랙션 디자인** (Loop 연결 시스템)
+- [x] 한/영 언어 토글 버튼
 
 ### 2.2 제외 범위 (Out of Scope)
 
@@ -81,19 +81,19 @@
 
 | ID | 요구사항 | 우선순위 | 상태 |
 |----|---------|---------|------|
-| FR-01 | **다국어 시스템** - 한국어 기본, 영어 언어팩 토글 (ko/en JSON 기반 i18n) | High | Pending |
-| FR-02 | **Hero Section** - 풀스크린 시네마틱 오프닝 + 핵심 메시지 + 3D 그래디언트 오브 | High | Pending |
-| FR-03 | **Problem Section** - 시나르마스 Pain Point 대비 구조 (HW vs SW 부재) | High | Pending |
-| FR-04 | **The Loop 시각화** - 8단계 순환 다이어그램, 각 노드 인터랙티브 | High | Pending |
-| FR-05 | **3단 전략 섹션** - 유통/마케팅/비전 각각 풀 섹션 디자인 | High | Pending |
-| FR-06 | **ScoutManager AI 딥다이브** - 기능 5가지 + 실제 수치 + 대시보드 목업 | High | Pending |
-| FR-07 | **시너지 매트릭스** - HW+SW 결합 인터랙티브 시각화 | High | Pending |
-| FR-08 | **파일럿 프로젝트 섹션** - K-뷰티/K-푸드 구체적 시뮬레이션 | Medium | Pending |
-| FR-09 | **JV 로드맵** - 3단계 인터랙티브 타임라인 + 예상 수치 | Medium | Pending |
-| FR-10 | **실적 & 파트너** - 누적 실적 + 투자사/파트너 로고 월 + 카운트업 | Medium | Pending |
-| FR-11 | **CTA Section** - "함께 만들어갈 미래" 최종 제안 | Medium | Pending |
-| FR-12 | **네비게이션** - 사이드 도트 네비 + 스크롤 프로그레스 + 언어 토글 | Medium | Pending |
-| FR-13 | **섹션 커넥터 시스템** - 모든 섹션을 잇는 SVG 플로우 라인 | High | Pending |
+| FR-01 | **다국어 시스템** - 한국어 기본, 영어 언어팩 토글 (ko/en JSON 기반 i18n) | High | ✅ Done |
+| FR-02 | **Hero Section** - 풀스크린 시네마틱 오프닝 + 블러→샤프 리빌 + 3D 그래디언트 오브 + shimmer-text + 플로팅 파티클 | High | ✅ Done |
+| FR-03 | **Problem Section** - 시나르마스 Pain Point 대비 구조 (HW vs SW) + 아이콘 카드 + gradient-border | High | ✅ Done |
+| FR-04 | **The Loop 시각화** - 8단계 순환 다이어그램, SVG 파티클 플로우, 노드 인터랙티브, 센터 브리딩 애니메이션 | High | ✅ Done |
+| FR-05 | **3단 전략 섹션** - 유통/마케팅/비전 풀 섹션 + 컬러코딩 + 이모지 아이콘 + 액센트 바 | High | ✅ Done |
+| FR-06 | **ScoutManager AI 딥다이브** - 기능 5가지 + 실제 수치 + 브라우저 크롬 대시보드 목업 + stat-card | High | ✅ Done |
+| FR-07 | **시너지 매트릭스** - HW+SW 결합 + 아이콘 시스템 + 브리딩 링 + gradient-border 결과 | High | ✅ Done |
+| FR-08 | **파일럿 프로젝트 섹션** - K-뷰티/K-푸드 시뮬레이션 + 탑 액센트 + PILOT 배지 + 글로우 결과 | Medium | ✅ Done |
+| FR-09 | **JV 로드맵** - 3단계 인터랙티브 타임라인 + 탑 그라디언트 + hover-glow | Medium | ✅ Done |
+| FR-10 | **실적 & 파트너** - 누적 실적 카운트업 + 컬러 스탯 카드 + NOW 배지 + 로고 마퀴 | Medium | ✅ Done |
+| FR-11 | **CTA Section** - shimmer-text 답변 + 샤인 스윕 버튼 + 골드 글로우 | Medium | ✅ Done |
+| FR-12 | **네비게이션** - 사이드 도트 네비 + 3색 그라디언트 스크롤 프로그레스 + 언어 토글 | Medium | ✅ Done |
+| FR-13 | **섹션 커넥터 시스템** - 섹션 디바이더 + 수직 커넥터 라인 (그라디언트) | High | ✅ Done |
 
 ### 3.2 비기능 요구사항
 
@@ -577,7 +577,7 @@
 
 ---
 
-## 5. 디자인 방향 (업그레이드)
+## 5. 디자인 방향 (v3.0 — 구현 완료)
 
 ### 5.1 디자인 컨셉: "Cinematic Loop — 시네마틱 순환 우주"
 
@@ -587,6 +587,26 @@
 - **데이터 중심 인포그래픽** + 절제된 모션 (퀄리티 > 양)
 - **투자자/경영진 타겟**: 권위있고 신뢰감 있는, 동시에 미래지향적 디자인
 - **Loop 테마**: 원형, 순환, 연결, 무한이 디자인 언어로 반복
+
+### 5.1.1 구현된 프리미엄 효과 시스템 (v3.0 신규)
+
+| 효과 | CSS 클래스 | 설명 | 적용 섹션 |
+|------|-----------|------|-----------|
+| **Shimmer Text** | `.shimmer-text` | 3색 그라디언트가 좌→우 무한 순환하는 텍스트 | Hero, CTA |
+| **Gradient Border** | `.gradient-border` | `::before` 의사요소 기반 3색 그라디언트 보더 | Hero Stats, Problem, Synergy |
+| **Hover Glow** | `.hover-glow` | 호버 시 translateY(-2px) + 민트 글로우 섀도우 | Problem, ScoutManager, Roadmap |
+| **Stat Card** | `.stat-card` | `::after` 스윕 효과 (좌→우 빛 슬라이드) | Problem, ScoutManager, TrackRecord |
+| **Section Divider** | `.section-divider` | 4색 그라디언트 수평선 (9개 배치) | 전체 섹션 사이 |
+| **Breathing Animation** | `@keyframes breathing` | 스케일 + 투명도 맥동 | TheLoop, Synergy |
+| **Scan Line** | `@keyframes scan-line` | 수평 스캔라인이 위→아래 무한 이동 | Hero |
+| **Floating Particles** | CSS `@keyframes float` | 6개 3색 파티클 부유 | Hero |
+| **Blur Reveal** | `filter: blur(10px)→blur(0px)` | 블러→샤프 텍스트 등장 | Hero 타이틀 |
+| **Shine Sweep** | `translate-x` gradient | 호버 시 빛이 좌→우 관통 | CTA 버튼 |
+
+**Tailwind CSS v4 레이어 이슈 해결 (Critical):**
+- `.shimmer-text`는 반드시 `@layer` 바깥에 `!important`로 정의
+- Tailwind v4에서 `text-*` 접두사 클래스는 유틸리티 네임스페이스와 충돌
+- `@layer components` 내부 정의 시 모든 속성이 무시됨 (specificity 0)
 
 **컬러 팔레트:**
 ```
@@ -611,20 +631,24 @@ Gradient Combos:
   Gold Highlight: linear-gradient(135deg, #C8A84E, #E8C84E)
 ```
 
-**타이포그래피:**
+**타이포그래피 (구현 확정):**
 ```
-Display/Hero: Satoshi (Black/Bold) — 또는 Cabinet Grotesk
-  - 한글: Pretendard (ExtraBold)
-  - 크기: 64-96px (Hero), 48-64px (Section Title)
+Display/Hero: Sora (ExtraBold/Bold) — Google Fonts CDN
+  - 한글: Pretendard Variable — Google Fonts CDN
+  - 크기: 60-96px (Hero), 36-60px (Section Title)
+  - letter-spacing: -0.02em, line-height: 1.1
 
-Body: General Sans (Regular/Medium) — 또는 Outfit
-  - 한글: Pretendard (Regular/Medium)
-  - 크기: 16-20px
+Body: Outfit (Regular/Medium) — Google Fonts CDN
+  - 한글: Pretendard Variable
+  - 크기: 14-20px
 
 Mono/Data: JetBrains Mono — 수치 강조용
-  - 크기: 48-72px (카운트업 수치)
+  - 크기: 24-48px (카운트업 수치)
 
-특수: 인용문/고민 텍스트는 이탤릭 + 약간 작은 크기
+CSS 변수:
+  --font-display: "Sora", "Pretendard Variable", sans-serif;
+  --font-body: "Outfit", "Pretendard Variable", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
 ```
 
 **모션/인터랙션 시스템:**
@@ -758,13 +782,13 @@ src/
 
 | 항목 | 선택 | 근거 |
 |------|------|------|
-| 프레임워크 | **Next.js 15 (App Router)** | 어포메이션 기존 스택, SSG 지원 |
+| 프레임워크 | **Next.js 16 (App Router)** | 어포메이션 기존 스택, SSG 지원 |
 | 스타일링 | **Tailwind CSS v4** | 빠른 개발, 다크모드, 유틸리티 |
 | 애니메이션 | **Framer Motion 12** | React 최적화, 선언적 API |
 | 스무스 스크롤 | **Lenis** | 프리미엄 스크롤 경험 |
 | SVG 애니메이션 | **Custom SVG + CSS** | Loop 다이어그램 커스터마이징 |
-| 폰트 | **Satoshi + Pretendard** | 셀프호스팅, 디스플레이+본문 |
-| 아이콘 | **Lucide React** | 일관된 라인 아이콘 |
+| 폰트 | **Sora + Outfit + Pretendard Variable** | Google Fonts CDN, 디스플레이+본문+한글 |
+| 아이콘 | **이모지 + CSS 아이콘** | 경량화, 별도 라이브러리 불필요 |
 | 배포 | **Vercel** | 무료, Next.js 최적화, 즉시 배포 |
 | 패키지 매니저 | **pnpm** | 빠른 설치, 디스크 효율 |
 
@@ -887,9 +911,13 @@ sinarmas/
 ## 10. Next Steps
 
 1. [x] **계획서 v2.0 업그레이드 완료**
-2. [ ] **계획서 컨펌** → 바로 구현 진입
-3. [ ] 프로젝트 초기화 및 구현 시작
-4. [ ] 구현 완료 후 Gap Analysis
+2. [x] **프로젝트 초기화 및 전체 10개 섹션 구현 완료**
+3. [x] **프리미엄 디자인 강화 (shimmer-text, gradient-border, hover-glow 등)**
+4. [x] **Tailwind CSS v4 레이어 이슈 해결**
+5. [x] **GitHub 푸시 완료** (https://github.com/afformationceo-debug/sinarmas.git)
+6. [ ] Gap Analysis (디자인 문서 대비 구현 검증)
+7. [ ] 최종 QA 및 반응형 검증
+8. [ ] Vercel 배포
 
 ---
 
@@ -899,3 +927,4 @@ sinarmas/
 |---------|------|---------|--------|
 | 0.1 | 2026-02-19 | Initial draft | Afformation Dev Team |
 | 2.0 | 2026-02-19 | 대폭 업그레이드: 한국어 기본, i18n, 10개 섹션, 디자인 고도화, 파일럿 시뮬레이션 추가, 시네마틱 디자인 컨셉 | Afformation Dev Team |
+| 3.0 | 2026-02-19 | 구현 완료 반영: FR-01~13 전체 Done, 프리미엄 효과 시스템 문서화, 기술 스택 확정 (Next.js 16, Sora+Outfit 폰트), Tailwind v4 이슈 해결 기록 | Afformation Dev Team |
