@@ -19,6 +19,7 @@ export default function ScoutManager() {
   return (
     <section id="scoutmanager" className="relative py-32 px-6 overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_100%_50%,_rgba(99,102,241,0.04)_0%,_transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_0%_80%,_rgba(0,212,170,0.03)_0%,_transparent_40%)]" />
 
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-16">
@@ -29,7 +30,7 @@ export default function ScoutManager() {
             viewport={{ once: true }}
             className="section-title text-4xl md:text-5xl lg:text-6xl mb-3"
           >
-            {t("scout.title")}
+            <span className="gradient-text-mint">{t("scout.title")}</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0 }}
@@ -42,7 +43,7 @@ export default function ScoutManager() {
           </motion.p>
         </div>
 
-        {/* Key Metrics Bar */}
+        {/* Key Metrics Bar - Enhanced */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -53,9 +54,9 @@ export default function ScoutManager() {
           {metrics.map((metric, i) => (
             <div
               key={i}
-              className="p-4 rounded-xl border border-indigo-500/10 bg-indigo-500/[0.03] text-center"
+              className="stat-card hover-glow p-5 rounded-xl border border-indigo-500/10 bg-indigo-500/[0.03] text-center"
             >
-              <div className="text-2xl md:text-3xl font-black text-indigo-400 mb-0.5">
+              <div className="text-2xl md:text-3xl font-black text-indigo-400 mb-1">
                 {metric.value}
               </div>
               <div className="text-[10px] md:text-xs text-slate-500 font-medium">
@@ -65,73 +66,112 @@ export default function ScoutManager() {
           ))}
         </motion.div>
 
-        {/* Dashboard mockup */}
+        {/* Dashboard mockup - Enhanced */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="mb-12 p-1 rounded-2xl bg-gradient-to-br from-indigo-500/20 via-mint-500/10 to-transparent"
+          className="mb-12 p-[1px] rounded-2xl"
+          style={{
+            background: "linear-gradient(135deg, rgba(99,102,241,0.3), rgba(0,212,170,0.2), rgba(200,168,78,0.15))",
+          }}
         >
-          <div className="rounded-xl bg-dark-900 p-6 md:p-10">
-            {/* Mock header */}
-            <div className="flex items-center gap-2 mb-8">
-              <div className="w-3 h-3 rounded-full bg-red-500/60" />
-              <div className="w-3 h-3 rounded-full bg-yellow-500/60" />
-              <div className="w-3 h-3 rounded-full bg-green-500/60" />
-              <span className="ml-4 text-xs text-slate-600 font-mono">
-                scoutmanager.io/dashboard
-              </span>
-              <div className="ml-auto flex items-center gap-2">
+          <div className="rounded-2xl bg-dark-900 p-6 md:p-10">
+            {/* Mock header - More realistic */}
+            <div className="flex items-center gap-2 mb-8 pb-4 border-b border-white/5">
+              <div className="flex gap-1.5">
+                <div className="w-3 h-3 rounded-full bg-red-500/60" />
+                <div className="w-3 h-3 rounded-full bg-yellow-500/60" />
+                <div className="w-3 h-3 rounded-full bg-green-500/60" />
+              </div>
+              <div className="flex-1 mx-4">
+                <div className="max-w-md mx-auto px-4 py-1.5 rounded-lg bg-dark-800 border border-white/5">
+                  <span className="text-[11px] text-slate-600 font-mono">
+                    https://scoutmanager.io/dashboard
+                  </span>
+                </div>
+              </div>
+              <div className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-                <span className="text-[10px] text-green-500/70 font-mono">LIVE</span>
+                <span className="text-[10px] text-green-500/70 font-mono font-bold">LIVE</span>
               </div>
             </div>
 
-            {/* Feature cards grid */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
-              {features.slice(0, 3).map((feat, i) => (
-                <GlowCard
-                  key={i}
-                  variant={i === 0 ? "mint" : "default"}
-                  delay={0.1 + i * 0.1}
-                  className="!p-5"
-                >
-                  <span className="text-2xl mb-3 block">{featureIcons[i]}</span>
-                  <h4 className="font-bold text-sm text-slate-200 mb-2">
-                    {feat.title}
-                  </h4>
-                  <p className="text-xs text-slate-500 leading-relaxed">
-                    {feat.desc}
-                  </p>
-                </GlowCard>
-              ))}
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {features.slice(3).map((feat, i) => (
-                <GlowCard
-                  key={i}
-                  variant="default"
-                  delay={0.4 + i * 0.1}
-                  className="!p-5"
-                >
-                  <span className="text-2xl mb-3 block">
-                    {featureIcons[i + 3]}
-                  </span>
-                  <h4 className="font-bold text-sm text-slate-200 mb-2">
-                    {feat.title}
-                  </h4>
-                  <p className="text-xs text-slate-500 leading-relaxed">
-                    {feat.desc}
-                  </p>
-                </GlowCard>
-              ))}
+            {/* Sidebar + Content layout */}
+            <div className="flex gap-6">
+              {/* Mini sidebar */}
+              <div className="hidden md:flex flex-col gap-3 w-12 shrink-0">
+                {["🏠", "🔍", "📨", "📊", "⚙️"].map((icon, i) => (
+                  <div
+                    key={i}
+                    className={`w-10 h-10 rounded-lg flex items-center justify-center text-sm transition-all ${
+                      i === 1
+                        ? "bg-indigo-500/15 border border-indigo-500/20"
+                        : "bg-white/[0.02] border border-white/5 hover:bg-white/[0.04]"
+                    }`}
+                  >
+                    {icon}
+                  </div>
+                ))}
+              </div>
+
+              {/* Main content area */}
+              <div className="flex-1">
+                {/* Feature cards grid */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                  {features.slice(0, 3).map((feat, i) => (
+                    <GlowCard
+                      key={i}
+                      variant={i === 0 ? "mint" : "default"}
+                      delay={0.1 + i * 0.1}
+                      className="!p-5"
+                    >
+                      <div className="flex items-center gap-2 mb-3">
+                        <span className="text-xl">{featureIcons[i]}</span>
+                        <h4 className="font-bold text-sm text-slate-200">
+                          {feat.title}
+                        </h4>
+                      </div>
+                      <p className="text-xs text-slate-500 leading-relaxed">
+                        {feat.desc}
+                      </p>
+                    </GlowCard>
+                  ))}
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {features.slice(3).map((feat, i) => (
+                    <GlowCard
+                      key={i}
+                      variant="default"
+                      delay={0.4 + i * 0.1}
+                      className="!p-5"
+                    >
+                      <div className="flex items-center gap-2 mb-3">
+                        <span className="text-xl">{featureIcons[i + 3]}</span>
+                        <h4 className="font-bold text-sm text-slate-200">
+                          {feat.title}
+                        </h4>
+                      </div>
+                      <p className="text-xs text-slate-500 leading-relaxed">
+                        {feat.desc}
+                      </p>
+                    </GlowCard>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         </motion.div>
 
-        {/* Platform & Language support */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-sm text-slate-500">
+        {/* Platform & Language support - Enhanced */}
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.3 }}
+          className="flex flex-col md:flex-row items-center justify-center gap-8 text-sm text-slate-500 px-6 py-4 rounded-xl border border-white/5 bg-white/[0.01]"
+        >
           <div className="flex items-center gap-3">
             <span className="text-xs font-bold tracking-wider text-slate-600 uppercase">
               Platforms
@@ -147,7 +187,7 @@ export default function ScoutManager() {
             <div className="w-px h-3 bg-slate-700" />
             <span className="text-slate-400">{t("scout.languages")}</span>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

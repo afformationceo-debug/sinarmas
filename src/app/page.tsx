@@ -13,6 +13,12 @@ import TrackRecord from "@/components/sections/TrackRecord";
 import Roadmap from "@/components/sections/Roadmap";
 import CTA from "@/components/sections/CTA";
 
+function SectionDivider() {
+  return (
+    <div className="section-divider max-w-xl mx-auto" />
+  );
+}
+
 export default function Home() {
   return (
     <I18nProvider>
@@ -22,14 +28,23 @@ export default function Home() {
         <div className="relative">
           {/* Section connector line */}
           <div className="absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-mint-500/10 via-indigo-500/10 to-gold-500/10 hidden lg:block z-0" />
+          <SectionDivider />
           <Problem />
+          <SectionDivider />
           <TheLoop />
+          <SectionDivider />
           <Strategy />
+          <SectionDivider />
           <ScoutManager />
+          <SectionDivider />
           <Synergy />
+          <SectionDivider />
           <Pilot />
+          <SectionDivider />
           <TrackRecord />
+          <SectionDivider />
           <Roadmap />
+          <SectionDivider />
           <CTA />
         </div>
       </main>
