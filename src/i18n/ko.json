@@ -1,0 +1,246 @@
+{
+  "nav": {
+    "problem": "문제 인식",
+    "loop": "어포메이션 루프",
+    "strategy": "전략",
+    "scoutmanager": "ScoutManager",
+    "synergy": "시너지",
+    "pilot": "파일럿",
+    "track": "실적",
+    "roadmap": "로드맵",
+    "cta": "제안"
+  },
+  "hero": {
+    "badge": "AFFORMATION \u00d7 SINAR MAS",
+    "title_1": "당신의 인프라.",
+    "title_2": "우리의 인텔리전스.",
+    "title_3": "하나의 플랫폼.",
+    "subtitle": "제품을 팔지 않습니다. 당신의 인프라 위에 돈을 찍어내는 OS를 설치합니다.",
+    "cta": "파트너십 탐색하기",
+    "stats": [
+      { "value": "100", "unit": "억+", "label": "누적 매출 기여" },
+      { "value": "4", "unit": "개국", "label": "글로벌 운영" },
+      { "value": "10000", "unit": "+", "label": "인플루언서 DB" }
+    ]
+  },
+  "problem": {
+    "label": "PROBLEM",
+    "title": "하드웨어는 있습니다.\n소프트웨어가 없습니다.",
+    "quote": "인도네시아에 땅도, 물류도, 마트도 넘칩니다.\n그런데 무엇을 채워 넣어야 돈이 됩니까?",
+    "market_data": {
+      "population": "2.78억",
+      "population_label": "인구 (세계 4위)",
+      "ecommerce": "$82B",
+      "ecommerce_label": "이커머스 시장 규모 (2025)",
+      "kbeauty": "32%",
+      "kbeauty_label": "K-뷰티 연평균 성장률",
+      "social": "1.9억",
+      "social_label": "소셜미디어 이용자"
+    },
+    "hw_title": "시나르마스가 가진 것",
+    "hw_label": "HARDWARE",
+    "hw_items": [
+      "부동산 인프라 — 인도네시아 전역 상업지구 보유",
+      "물류 네트워크 — 자카르타~수라바야 풀필먼트",
+      "리테일 매장 — 오프라인 유통 채널 확보",
+      "자본력 — 재계 서열 2~4위 그룹 파워",
+      "시장 접근성 — 현지 규제·인허가 노하우"
+    ],
+    "sw_title": "빠진 퍼즐 조각",
+    "sw_label": "SOFTWARE",
+    "sw_items": [
+      "브랜드 파이프라인 — 한국 인기 브랜드 독점 소싱력",
+      "AI 마케팅 엔진 — ScoutManager 자동화 시스템",
+      "데이터 인텔리전스 — 실시간 소비자 분석·최적화",
+      "인플루언서 네트워크 — 10,000+ KOL 데이터베이스",
+      "콘텐츠 생산 시스템 — AI 기반 콘텐츠 대량 생산"
+    ],
+    "conclusion": "어포메이션이 그 방정식을 완성합니다."
+  },
+  "loop": {
+    "label": "CORE ENGINE",
+    "title": "어포메이션 루프",
+    "subtitle": "한 번 돌기 시작하면, 멈출 수 없는 성장 엔진",
+    "steps": [
+      { "name": "브랜드 분석", "desc": "브랜드 현황 360° 분석 · SWOT · 인도네시아 시장 적합성 평가 · 경쟁사 벤치마킹 · 가격 포지셔닝 분석" },
+      { "name": "진출 전략", "desc": "인도네시아 맞춤 GTM 전략 설계 · 타겟 세그먼트 정의 · 채널 믹스 전략 · OKR/KPI 수립 · 예산 배분" },
+      { "name": "ScoutManager AI", "desc": "AI가 일일 10,000+명 인플루언서 분석 · 자동 매칭 · DM 섭외 · 콘텐츠 가이드 생성 · 실시간 성과 트래킹 · 자동 정산" },
+      { "name": "광고 시스템", "desc": "인플루언서 UGC 재가공 · Meta/TikTok/Google Ads 집행 · AI 타겟팅 최적화 · A/B 테스팅 · ROAS 극대화" },
+      { "name": "커머스 세팅", "desc": "TikTok Shop · Shopee · Tokopedia 스토어 구축 · 라이브 커머스 협업 · 어필리에이트 프로그램 운영" },
+      { "name": "판매 & 유통", "desc": "시나르마스 물류 네트워크 활용 · 온라인→오프라인 확장 · 전국 유통망 연결 · 재고 최적화" },
+      { "name": "브랜드 성장", "desc": "판매 데이터 기반 현지화 브랜딩 · 소비자 페르소나 고도화 · 제품 라인업 확장 · 리텐션 마케팅" },
+      { "name": "현지화 최적화", "desc": "데이터 기반 지속 최적화 · 소비자 피드백 반영 · 신규 카테고리 발굴 · Loop 재순환으로 기하급수적 성장" }
+    ],
+    "synergy_note": "시나르마스 시너지",
+    "bottom": "이 Loop가 성공사례를 만들고 → 더 많은 K-브랜드 유입 → 플랫폼화 → 합작 법인(JV)"
+  },
+  "strategy": {
+    "label": "STRATEGY",
+    "title": "3단 전략",
+    "subtitle": "Commerce → Marketing Engine → Joint Venture",
+    "steps": [
+      {
+        "step": "STEP 01",
+        "title": "유통: 제품이 아니라 '터지는 공식'을 드립니다",
+        "pain": "한국 거 가져와도 마케팅 안 되면 재고만 쌓이던데?",
+        "solution": "그래서 ScoutManager(AI)가 필요합니다. 저희는 제품만 던지는 게 아니라, 인도네시아 현지 인플루언서 수천 명을 AI로 자동 매칭해서 '팔리는 구조'까지 세팅해서 드립니다.",
+        "proposal": "시나르마스는 물류와 입점만 맡으세요. 판매를 일으키는 마케팅은 우리 AI와 인플루언서가 책임집니다."
+      },
+      {
+        "step": "STEP 02",
+        "title": "마케팅 엔진: AI가 만드는 자동화 파이프라인",
+        "pain": "대행사 쓰면 비싸고 느리고 성과 측정도 안 되던데?",
+        "solution": "ScoutManager는 인플루언서 발굴 10초, 비용 89% 절감, 실시간 성과 분석, 원클릭 정산까지 전부 자동화합니다. 기존 에이전시 대비 10배 효율, 1/10 비용으로 운영 가능합니다.",
+        "proposal": "기존 방식의 1/10 비용으로 10배의 효율을 만들어드립니다."
+      },
+      {
+        "step": "STEP 03",
+        "title": "비전: 납품 계약에서 합작 법인으로",
+        "pain": "단순 납품이면 우리한테 별 메리트가 없는데?",
+        "solution": "단순 공급 계약으로 시작하겠지만, 향후에는 시나르마스와 어포메이션이 인도네시아 합작 법인(JV)을 만들어 'K-브랜드 독점 유통 플랫폼'으로 키우는 그림을 그리고 싶습니다. 동남아 전체로 확장 가능한 플랫폼 비즈니스입니다.",
+        "proposal": "K-브랜드가 인도네시아를 지배하는 건 시간문제입니다. 문제는 누가 그 파이프라인을 소유하느냐입니다."
+      }
+    ],
+    "stats": [
+      { "value": "10", "unit": "초", "label": "인플루언서 발굴 소요 시간" },
+      { "value": "89", "unit": "%", "label": "마케팅 비용 절감률" },
+      { "value": "5", "unit": "배", "label": "광고 전환율 향상" },
+      { "value": "10000", "unit": "+", "label": "일일 KOL 데이터 분석" }
+    ]
+  },
+  "scout": {
+    "label": "AI SOLUTION",
+    "title": "ScoutManager",
+    "subtitle": "AI 인플루언서 마케팅 자동화 SaaS — 업계 유일의 올인원 솔루션",
+    "features": [
+      { "title": "AI 인플루언서 발굴", "desc": "자연어 검색으로 일일 10,000명+ 분석. 가짜 팔로워 자동 탐지. 브랜드 적합도 AI 스코어링. 인도네시아·일본·대만 등 다국가 지원." },
+      { "title": "AI 자동 DM 발송", "desc": "GPT 기반 개인화 메시지 자동 생성. Instagram DM/이메일 동시 발송. 응답률 3배 향상. 팔로업 자동화." },
+      { "title": "통합 인박스", "desc": "Instagram, Email, LINE, WhatsApp 채널 통합 관리. AI 추천 답변. 협업 히스토리 자동 저장. 팀 협업 지원." },
+      { "title": "실시간 성과 분석", "desc": "30일 자동 트래킹. CPE/CPM/ROAS 분석. PDF/Excel 리포트 자동 생성. 클라이언트 대시보드 공유." },
+      { "title": "글로벌 정산 시스템", "desc": "KRW, USD, IDR, JPY, TWD 다중 통화 지원. 원클릭 결제. 세금계산서 자동 발행. 정산 분쟁 0건 달성." }
+    ],
+    "platforms": "Instagram · TikTok · YouTube · X · LINE",
+    "languages": "한국어 · English · 日本語 · 中文 · Bahasa",
+    "metrics": [
+      { "value": "10초", "label": "인플루언서 탐색" },
+      { "value": "89%", "label": "비용 절감" },
+      { "value": "3배", "label": "응답률 향상" },
+      { "value": "0건", "label": "정산 분쟁" }
+    ]
+  },
+  "synergy": {
+    "label": "SYNERGY",
+    "title": "시나르마스의 하드웨어",
+    "title2": "어포메이션의 소프트웨어",
+    "hw": ["물류 네트워크 (자카르타~수라바야)", "리테일 매장 (오프라인 채널)", "유통 체인 (전국 커버리지)", "자본력 (재계 2~4위)", "시장 접근성 (현지 네트워크)", "규제 노하우 (인허가·통관)"],
+    "sw": ["AI 마케팅 엔진 (ScoutManager)", "K-브랜드 독점 소싱 (200+ 브랜드)", "인플루언서 10,000+ DB", "SaaS 플랫폼 (자동화 시스템)", "콘텐츠 생산 (AI+크리에이터)", "데이터 분석 & 실시간 최적화"],
+    "formula": "HW × SW = Dominance",
+    "result": "인도네시아 No.1 K-브랜드 게이트웨이"
+  },
+  "pilot": {
+    "label": "PILOT PROJECT",
+    "title": "파일럿 프로젝트",
+    "subtitle": "숫자로 증명하는 6개월 실행 계획",
+    "projects": [
+      {
+        "name": "K-뷰티 브랜드",
+        "category": "스킨케어 · 메이크업 · 선케어",
+        "timeline": [
+          "Month 1-2: ScoutManager로 인플루언서 500명 발굴 · AI 매칭 · 섭외 완료",
+          "Month 2-3: UGC 콘텐츠 200개 생산, TikTok/Instagram 배포, 리치 500만+",
+          "Month 3-4: Meta/TikTok Ads 집행, 트래픽 10만+ 확보, CPA $2.5 이하",
+          "Month 4-5: TikTok Shop 론칭, 월 매출 $50K 달성, 전환율 4.2%",
+          "Month 5-6: 시나르마스 오프라인 입점 20개 매장, 월 매출 $150K"
+        ],
+        "result": "6개월 누적: $500K+ 매출 · ROAS 420%"
+      },
+      {
+        "name": "K-푸드 브랜드",
+        "category": "라면 · 스낵 · 음료 · 조미료",
+        "timeline": [
+          "Month 1-2: 현지화 전략 수립 · 할랄 인증 · 인플루언서 300명 매칭",
+          "Month 2-3: 먹방/리뷰 콘텐츠 150개 생산, 조회수 800만+",
+          "Month 3-4: 바이럴 마케팅 + Shopee/Tokopedia 입점, 월 주문 5,000+",
+          "Month 4-6: 시나르마스 물류 활용, 전국 유통 확대, 월 매출 $80K"
+        ],
+        "result": "6개월 누적: $300K+ 매출 · 재구매율 38%"
+      }
+    ]
+  },
+  "track": {
+    "label": "TRACK RECORD",
+    "title": "실행으로 증명합니다",
+    "subtitle": "어포메이션은 말이 아닌 숫자로 말합니다",
+    "stats": [
+      { "value": "100", "unit": "억+", "label": "누적 매출 기여" },
+      { "value": "200", "unit": "+", "label": "운영 캠페인" },
+      { "value": "4", "unit": "개국", "label": "글로벌 진출" },
+      { "value": "2021", "unit": "~", "label": "설립" }
+    ],
+    "partners": ["Paratus Investment", "LINE", "KAIA", "SentBe", "NICE정보통신", "하이브", "CJ ENM"],
+    "milestones": [
+      { "year": "2021", "event": "법인 설립 · 챗닥 론칭 · 국내 병원 200+ 마케팅 수주" },
+      { "year": "2022", "event": "인플루언서 마케팅 사업 본격 확장 · 월 매출 1억 돌파" },
+      { "year": "2023", "event": "대만 시장 진출 · ScoutManager 베타 론칭 · 해외 매출 비중 30%" },
+      { "year": "2024", "event": "일본/영미권 확장 · 누적 매출 100억+ 달성 · SaaS 정식 출시" },
+      { "year": "2025", "event": "ScoutManager 글로벌 SaaS · 인도네시아 시장 진출 준비" },
+      { "year": "2026", "event": "시나르마스 파트너십 · 인도네시아 K-커머스 플랫폼 론칭" }
+    ]
+  },
+  "roadmap": {
+    "label": "ROADMAP",
+    "title": "파트너십 로드맵",
+    "subtitle": "단계적 성장, 지속적 확장, 궁극적 지배",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "name": "PILOT",
+        "period": "1-6개월",
+        "items": [
+          "K-뷰티/K-푸드 2-3개 브랜드 인도네시아 론칭",
+          "ScoutManager 인도네시아 현지화 (Bahasa 지원)",
+          "TikTok Shop + Shopee + Tokopedia 세팅",
+          "인플루언서 1,000+ 네트워크 구축",
+          "시나르마스 물류 센터 연동 테스트"
+        ],
+        "goal": "목표: 월 매출 $200K · ROAS 300%+"
+      },
+      {
+        "phase": "Phase 2",
+        "name": "SCALE",
+        "period": "6-12개월",
+        "items": [
+          "10+ K-브랜드 동시 운영 (뷰티·푸드·패션·라이프)",
+          "시나르마스 물류 풀 통합 · 전국 배송 D+1",
+          "오프라인 매장 50+ 입점 확대",
+          "라이브 커머스 주간 프로그램 운영",
+          "자체 브랜드 PB 상품 기획"
+        ],
+        "goal": "목표: 연간 매출 $3M+ · 브랜드 10+ 확보"
+      },
+      {
+        "phase": "Phase 3",
+        "name": "JOINT VENTURE",
+        "period": "12개월+",
+        "items": [
+          "인도네시아 합작 법인(JV) 설립",
+          "'K-Gateway' 독점 유통 플랫폼 론칭",
+          "AI 마케팅 SaaS 현지 서비스 B2B 확장",
+          "베트남·태국·필리핀 동남아 확장"
+        ],
+        "goal": "목표: K-커머스 인도네시아 No.1 플랫폼"
+      }
+    ]
+  },
+  "cta": {
+    "quote": "K-브랜드가 인도네시아를 지배하는 건 시간문제입니다.\n문제는 누가 그 파이프라인을 소유하느냐입니다.",
+    "answer": "우리가 그 답이 됩시다.",
+    "btn_proposal": "파트너십 제안서 보기",
+    "btn_meeting": "미팅 일정 잡기",
+    "company": "AFFORMATION",
+    "address": "서울시 강남구 강남대로484 702호",
+    "email": "contact@afformation.co.kr",
+    "website": "afformation.co.kr",
+    "copyright": "\u00a9 2026 Afformation. All rights reserved."
+  }
+}

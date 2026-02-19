@@ -1,0 +1,246 @@
+{
+  "nav": {
+    "problem": "Problem",
+    "loop": "The Loop",
+    "strategy": "Strategy",
+    "scoutmanager": "ScoutManager",
+    "synergy": "Synergy",
+    "pilot": "Pilot",
+    "track": "Track Record",
+    "roadmap": "Roadmap",
+    "cta": "Proposal"
+  },
+  "hero": {
+    "badge": "AFFORMATION \u00d7 SINAR MAS",
+    "title_1": "Your Infrastructure.",
+    "title_2": "Our Intelligence.",
+    "title_3": "One Platform.",
+    "subtitle": "We don't sell products. We install the OS that makes your infrastructure print money.",
+    "cta": "Explore the Partnership",
+    "stats": [
+      { "value": "100", "unit": "B+", "label": "Revenue Contribution" },
+      { "value": "4", "unit": " Countries", "label": "Global Operations" },
+      { "value": "10000", "unit": "+", "label": "Influencer DB" }
+    ]
+  },
+  "problem": {
+    "label": "PROBLEM",
+    "title": "You have the hardware.\nYou need the software.",
+    "quote": "We have land, logistics, and retail all over Indonesia.\nBut what do we fill them with to make money?",
+    "market_data": {
+      "population": "278M",
+      "population_label": "Population (4th largest)",
+      "ecommerce": "$82B",
+      "ecommerce_label": "E-Commerce Market (2025)",
+      "kbeauty": "32%",
+      "kbeauty_label": "K-Beauty CAGR",
+      "social": "190M",
+      "social_label": "Social Media Users"
+    },
+    "hw_title": "What Sinar Mas Has",
+    "hw_label": "HARDWARE",
+    "hw_items": [
+      "Real Estate Infrastructure — commercial districts across Indonesia",
+      "Logistics Network — Jakarta to Surabaya fulfillment",
+      "Retail Locations — offline distribution channels secured",
+      "Capital — Top 2-4 conglomerate group power",
+      "Market Access — local regulatory and licensing know-how"
+    ],
+    "sw_title": "The Missing Piece",
+    "sw_label": "SOFTWARE",
+    "sw_items": [
+      "Brand Pipeline — exclusive sourcing of popular Korean brands",
+      "AI Marketing Engine — ScoutManager automation system",
+      "Data Intelligence — real-time consumer analytics & optimization",
+      "Influencer Network — 10,000+ KOL database",
+      "Content Production — AI-powered mass content creation"
+    ],
+    "conclusion": "Afformation completes the equation."
+  },
+  "loop": {
+    "label": "CORE ENGINE",
+    "title": "The Afformation Loop",
+    "subtitle": "Once it starts spinning, growth never stops.",
+    "steps": [
+      { "name": "Brand Analysis", "desc": "360° brand assessment · SWOT · Indonesia market fit evaluation · competitor benchmarking · price positioning analysis" },
+      { "name": "Market Strategy", "desc": "Indonesia-specific GTM strategy · target segment definition · channel mix strategy · OKR/KPI setup · budget allocation" },
+      { "name": "ScoutManager AI", "desc": "AI analyzes 10,000+ influencers daily · auto-matching · DM outreach · content guide generation · real-time performance tracking · auto settlement" },
+      { "name": "Ad System", "desc": "Influencer UGC repurposing · Meta/TikTok/Google Ads · AI targeting optimization · A/B testing · ROAS maximization" },
+      { "name": "Commerce Setup", "desc": "TikTok Shop · Shopee · Tokopedia store setup · live commerce collaboration · affiliate program management" },
+      { "name": "Sales & Distribution", "desc": "Sinar Mas logistics network integration · online→offline expansion · nationwide distribution · inventory optimization" },
+      { "name": "Brand Growth", "desc": "Sales data-driven localized branding · consumer persona refinement · product lineup expansion · retention marketing" },
+      { "name": "Optimization", "desc": "Continuous data-driven optimization · consumer feedback integration · new category discovery · Loop restart for exponential growth" }
+    ],
+    "synergy_note": "Sinar Mas Synergy",
+    "bottom": "This Loop creates success stories → more K-brands join → platform emerges → Joint Venture (JV)"
+  },
+  "strategy": {
+    "label": "STRATEGY",
+    "title": "Three-Pillar Strategy",
+    "subtitle": "Commerce → Marketing Engine → Joint Venture",
+    "steps": [
+      {
+        "step": "STEP 01",
+        "title": "Commerce: We give you a formula that sells",
+        "pain": "We bring Korean products but they just pile up as inventory without marketing...",
+        "solution": "That's why ScoutManager (AI) is needed. We don't just throw products — we auto-match thousands of local Indonesian influencers via AI and set up the entire 'selling structure' for you.",
+        "proposal": "Sinar Mas handles logistics and placement. We handle the marketing that drives sales."
+      },
+      {
+        "step": "STEP 02",
+        "title": "Marketing Engine: AI-Powered Automation",
+        "pain": "Agencies are expensive, slow, and impossible to measure...",
+        "solution": "ScoutManager discovers influencers in 10 seconds, cuts costs by 89%, provides real-time analytics, and automates settlement — all in one click. 10x more efficient than agencies at 1/10th the cost.",
+        "proposal": "10x efficiency at 1/10th the cost of traditional methods."
+      },
+      {
+        "step": "STEP 03",
+        "title": "Vision: From Supply Contract to Joint Venture",
+        "pain": "A simple supply deal doesn't excite us...",
+        "solution": "We start with a supply contract, but our vision is to create an Indonesia Joint Venture (JV) with Sinar Mas — building the exclusive K-Brand distribution platform. A scalable platform business across all of Southeast Asia.",
+        "proposal": "The question is not IF K-brands will dominate Indonesia. The question is WHO will own the pipeline."
+      }
+    ],
+    "stats": [
+      { "value": "10", "unit": "sec", "label": "Influencer Discovery Time" },
+      { "value": "89", "unit": "%", "label": "Marketing Cost Reduction" },
+      { "value": "5", "unit": "x", "label": "Ad Conversion Boost" },
+      { "value": "10000", "unit": "+", "label": "Daily KOL Data Analysis" }
+    ]
+  },
+  "scout": {
+    "label": "AI SOLUTION",
+    "title": "ScoutManager",
+    "subtitle": "AI Influencer Marketing Automation SaaS — The only all-in-one solution in the industry",
+    "features": [
+      { "title": "AI Influencer Discovery", "desc": "Natural language search with 10,000+ daily analysis. Fake follower auto-detection. AI brand-fit scoring. Multi-country support: Indonesia, Japan, Taiwan." },
+      { "title": "Auto DM Outreach", "desc": "GPT-powered personalized message generation. Instagram DM/email simultaneous delivery. 3x response rate improvement. Auto follow-up sequences." },
+      { "title": "Unified Inbox", "desc": "Instagram, Email, LINE, WhatsApp channels unified. AI-suggested responses. Auto-saved collaboration history. Team collaboration support." },
+      { "title": "Real-time Analytics", "desc": "30-day auto-tracking. CPE/CPM/ROAS analysis. PDF/Excel report auto-generation. Client dashboard sharing." },
+      { "title": "Global Settlement", "desc": "KRW, USD, IDR, JPY, TWD multi-currency support. One-click payments. Auto tax invoice generation. Zero settlement disputes." }
+    ],
+    "platforms": "Instagram · TikTok · YouTube · X · LINE",
+    "languages": "Korean · English · Japanese · Chinese · Bahasa",
+    "metrics": [
+      { "value": "10sec", "label": "Influencer Search" },
+      { "value": "89%", "label": "Cost Reduction" },
+      { "value": "3x", "label": "Response Rate" },
+      { "value": "0", "label": "Settlement Disputes" }
+    ]
+  },
+  "synergy": {
+    "label": "SYNERGY",
+    "title": "Sinar Mas Hardware",
+    "title2": "Afformation Software",
+    "hw": ["Logistics Network (Jakarta~Surabaya)", "Retail Locations (Offline Channels)", "Distribution Chain (Nationwide)", "Capital (Top 2-4 Conglomerate)", "Market Access (Local Networks)", "Regulatory Know-how (Licensing)"],
+    "sw": ["AI Marketing Engine (ScoutManager)", "K-Brand Exclusive Sourcing (200+ Brands)", "Influencer 10,000+ DB", "SaaS Platform (Automation System)", "Content Production (AI+Creators)", "Data Analytics & Real-time Optimization"],
+    "formula": "HW × SW = Dominance",
+    "result": "Indonesia's #1 K-Brand Gateway"
+  },
+  "pilot": {
+    "label": "PILOT PROJECT",
+    "title": "Pilot Project",
+    "subtitle": "A 6-month execution plan proven by numbers",
+    "projects": [
+      {
+        "name": "K-Beauty Brand",
+        "category": "Skincare · Makeup · Suncare",
+        "timeline": [
+          "Month 1-2: Discover 500 influencers via ScoutManager · AI matching · outreach complete",
+          "Month 2-3: Produce 200 UGC pieces, distribute on TikTok/Instagram, 5M+ reach",
+          "Month 3-4: Meta/TikTok Ads, secure 100K+ traffic, CPA under $2.5",
+          "Month 4-5: Launch TikTok Shop, hit $50K monthly revenue, 4.2% conversion",
+          "Month 5-6: Sinar Mas offline placement in 20 stores, $150K monthly"
+        ],
+        "result": "6-month total: $500K+ revenue · 420% ROAS"
+      },
+      {
+        "name": "K-Food Brand",
+        "category": "Ramen · Snacks · Beverages · Seasonings",
+        "timeline": [
+          "Month 1-2: Localization strategy · Halal certification · match 300 influencers",
+          "Month 2-3: Produce 150 mukbang/review pieces, 8M+ views",
+          "Month 3-4: Viral marketing + Shopee/Tokopedia entry, 5,000+ monthly orders",
+          "Month 4-6: Sinar Mas logistics, nationwide distribution, $80K monthly"
+        ],
+        "result": "6-month total: $300K+ revenue · 38% repurchase rate"
+      }
+    ]
+  },
+  "track": {
+    "label": "TRACK RECORD",
+    "title": "Proven by Execution",
+    "subtitle": "Afformation speaks in numbers, not words",
+    "stats": [
+      { "value": "100", "unit": "B+", "label": "Revenue Contribution" },
+      { "value": "200", "unit": "+", "label": "Campaigns Run" },
+      { "value": "4", "unit": " Countries", "label": "Global Reach" },
+      { "value": "2021", "unit": "~", "label": "Founded" }
+    ],
+    "partners": ["Paratus Investment", "LINE", "KAIA", "SentBe", "NICE InfoComm", "HYBE", "CJ ENM"],
+    "milestones": [
+      { "year": "2021", "event": "Founded · ChatDoc launch · 200+ hospital marketing contracts" },
+      { "year": "2022", "event": "Influencer marketing expansion · Monthly revenue crosses KRW 100M" },
+      { "year": "2023", "event": "Taiwan market entry · ScoutManager beta · 30% international revenue" },
+      { "year": "2024", "event": "Japan/US/UK expansion · KRW 10B+ cumulative · SaaS official launch" },
+      { "year": "2025", "event": "ScoutManager global SaaS · Indonesia market preparation" },
+      { "year": "2026", "event": "Sinar Mas partnership · Indonesia K-Commerce platform launch" }
+    ]
+  },
+  "roadmap": {
+    "label": "ROADMAP",
+    "title": "Partnership Roadmap",
+    "subtitle": "Phased growth, continuous expansion, ultimate dominance",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "name": "PILOT",
+        "period": "Month 1-6",
+        "items": [
+          "Launch 2-3 K-Beauty/K-Food brands in Indonesia",
+          "Localize ScoutManager for Indonesia (Bahasa support)",
+          "Set up TikTok Shop + Shopee + Tokopedia",
+          "Build 1,000+ influencer network",
+          "Sinar Mas logistics center integration test"
+        ],
+        "goal": "Target: $200K monthly · ROAS 300%+"
+      },
+      {
+        "phase": "Phase 2",
+        "name": "SCALE",
+        "period": "Month 6-12",
+        "items": [
+          "Operate 10+ K-brands simultaneously (Beauty·Food·Fashion·Life)",
+          "Full Sinar Mas logistics integration · D+1 nationwide delivery",
+          "Expand offline retail to 50+ locations",
+          "Weekly live commerce program operation",
+          "Private label (PB) product development"
+        ],
+        "goal": "Target: $3M+ annual · 10+ brands secured"
+      },
+      {
+        "phase": "Phase 3",
+        "name": "JOINT VENTURE",
+        "period": "Year 2+",
+        "items": [
+          "Establish Indonesia Joint Venture (JV)",
+          "Launch 'K-Gateway' exclusive distribution platform",
+          "Expand AI marketing SaaS as local B2B service",
+          "Expand to Vietnam, Thailand, Philippines"
+        ],
+        "goal": "Target: Indonesia's #1 K-Commerce Platform"
+      }
+    ]
+  },
+  "cta": {
+    "quote": "The question is not IF K-brands will dominate Indonesia.\nThe question is WHO will own the pipeline.",
+    "answer": "Let us be the answer.",
+    "btn_proposal": "View Partnership Proposal",
+    "btn_meeting": "Schedule a Meeting",
+    "company": "AFFORMATION",
+    "address": "702, 484 Gangnam-daero, Gangnam-gu, Seoul",
+    "email": "contact@afformation.co.kr",
+    "website": "afformation.co.kr",
+    "copyright": "\u00a9 2026 Afformation. All rights reserved."
+  }
+}
