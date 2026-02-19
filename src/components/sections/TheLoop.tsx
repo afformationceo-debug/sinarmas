@@ -236,6 +236,10 @@ export default function TheLoop() {
                   className="absolute -inset-4 rounded-full border border-indigo-500/10"
                   style={{ animation: "pulse-glow 3s ease-in-out infinite 1s" }}
                 />
+                <div
+                  className="absolute -inset-12 rounded-full opacity-30"
+                  style={{ background: "radial-gradient(circle, rgba(0,212,170,0.15) 0%, transparent 70%)", animation: "breathing 4s ease-in-out infinite" }}
+                />
                 <div className="w-24 h-24 rounded-full bg-dark-900/80 backdrop-blur-md border border-white/10 flex flex-col items-center justify-center shadow-[0_0_60px_rgba(0,212,170,0.08)]">
                   <span className="text-[10px] font-black tracking-[0.25em] gradient-text-mint">
                     AFFORMATION
@@ -300,9 +304,12 @@ export default function TheLoop() {
           viewport={{ once: true }}
           className="text-center"
         >
-          <p className="text-base md:text-lg text-slate-400 max-w-3xl mx-auto leading-relaxed px-8 py-4 rounded-xl border border-white/5 bg-white/[0.02]">
-            {t("loop.bottom")}
-          </p>
+          <div className="relative inline-block">
+            <div className="absolute -inset-px rounded-xl bg-gradient-to-r from-mint-500/20 via-indigo-500/20 to-gold-500/20 blur-sm" />
+            <p className="relative text-base md:text-lg text-slate-400 max-w-3xl mx-auto leading-relaxed px-8 py-5 rounded-xl border border-white/5 bg-dark-900/80 backdrop-blur-sm">
+              {t("loop.bottom")}
+            </p>
+          </div>
         </motion.div>
       </div>
     </section>

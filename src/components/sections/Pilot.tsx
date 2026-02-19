@@ -16,6 +16,7 @@ export default function Pilot() {
   return (
     <section id="pilot" className="relative py-32 px-6 overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_100%,_rgba(0,212,170,0.03)_0%,_transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_20%,_rgba(200,168,78,0.03)_0%,_transparent_40%)]" />
 
       <div className="max-w-5xl mx-auto relative z-10">
         <div className="text-center mb-16">
@@ -49,23 +50,47 @@ export default function Pilot() {
             >
               {/* Header */}
               <div
-                className={`px-6 py-5 border-b ${
+                className={`px-6 py-5 border-b relative overflow-hidden ${
                   pi === 0
                     ? "border-mint-500/10 bg-mint-500/[0.03]"
                     : "border-gold-500/10 bg-gold-500/[0.03]"
                 }`}
               >
+                {/* Top accent line */}
+                <div
+                  className="absolute top-0 left-0 right-0 h-[2px]"
+                  style={{
+                    background: `linear-gradient(90deg, transparent, ${pi === 0 ? "#00D4AA" : "#C8A84E"}, transparent)`,
+                  }}
+                />
                 <div className="flex items-center gap-3 mb-1">
-                  <span className="text-2xl">{projectIcons[pi]}</span>
-                  <h3 className="font-bold text-lg text-slate-200">
-                    {project.name}
-                  </h3>
+                  <div
+                    className={`w-11 h-11 rounded-xl flex items-center justify-center text-xl ${
+                      pi === 0 ? "bg-mint-500/10 border border-mint-500/20" : "bg-gold-500/10 border border-gold-500/20"
+                    }`}
+                  >
+                    {projectIcons[pi]}
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg text-slate-200">
+                      {project.name}
+                    </h3>
+                    {project.category && (
+                      <p className={`text-xs font-medium ${pi === 0 ? "text-mint-500/60" : "text-gold-500/60"}`}>
+                        {project.category}
+                      </p>
+                    )}
+                  </div>
+                  <span
+                    className={`ml-auto text-[10px] font-bold px-2.5 py-1 rounded-full ${
+                      pi === 0
+                        ? "bg-mint-500/10 text-mint-400 border border-mint-500/20"
+                        : "bg-gold-500/10 text-gold-400 border border-gold-500/20"
+                    }`}
+                  >
+                    PILOT #{pi + 1}
+                  </span>
                 </div>
-                {project.category && (
-                  <p className={`text-xs font-medium ml-10 ${pi === 0 ? "text-mint-500/60" : "text-gold-500/60"}`}>
-                    {project.category}
-                  </p>
-                )}
               </div>
 
               {/* Timeline */}
@@ -103,13 +128,20 @@ export default function Pilot() {
 
                 {/* Result */}
                 <div
-                  className={`px-4 py-3 rounded-lg text-center font-bold text-sm ${
+                  className={`px-4 py-3.5 rounded-lg text-center font-bold text-sm relative overflow-hidden ${
                     pi === 0
                       ? "bg-mint-500/10 text-mint-400 border border-mint-500/20"
                       : "bg-gold-500/10 text-gold-400 border border-gold-500/20"
                   }`}
                 >
-                  {project.result}
+                  <div
+                    className={`absolute inset-0 opacity-30 ${
+                      pi === 0
+                        ? "bg-[radial-gradient(ellipse_at_50%_50%,_rgba(0,212,170,0.15)_0%,_transparent_70%)]"
+                        : "bg-[radial-gradient(ellipse_at_50%_50%,_rgba(200,168,78,0.15)_0%,_transparent_70%)]"
+                    }`}
+                  />
+                  <span className="relative z-10">{project.result}</span>
                 </div>
               </div>
             </GlowCard>

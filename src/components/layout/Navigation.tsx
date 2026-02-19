@@ -153,8 +153,12 @@ function ScrollProgress() {
   return (
     <div className="fixed top-0 left-0 right-0 z-[60] h-[2px]">
       <div
-        className="h-full bg-gradient-to-r from-mint-500 to-indigo-500 transition-[width] duration-100"
-        style={{ width: `${progress * 100}%` }}
+        className="h-full transition-[width] duration-100"
+        style={{
+          width: `${progress * 100}%`,
+          background: "linear-gradient(90deg, #00D4AA, #6366F1, #C8A84E)",
+          boxShadow: "0 0 12px rgba(0,212,170,0.4), 0 0 24px rgba(99,102,241,0.2)",
+        }}
       />
     </div>
   );
